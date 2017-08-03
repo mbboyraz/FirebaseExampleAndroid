@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "726424446972",
+    "firebase_url": "https://airconditionfirebase.firebaseio.com",
+    "project_id": "airconditionfirebase",
+    "storage_bucket": "airconditionfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726424446972:android:88e1c2ca0c68402f",
+        "android_client_info": {
+          "package_name": "com.example.mbura.airconditionfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726424446972-j75jga7qjrlp4sl629b7q8nr5p9a02fl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mbura.airconditionfirebase",
+            "certificate_hash": "44fe17d9265786420857843df36ce00233f25958"
+          }
+        },
+        {
+          "client_id": "726424446972-5hrr4g6i7coqesrh7bnisl9p2b6ju2i0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_B9f6FxZgh0EVuAOgG43d2tmQa_ae_6o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726424446972-5hrr4g6i7coqesrh7bnisl9p2b6ju2i0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

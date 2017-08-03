@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "160801337720",
+    "firebase_url": "https://airconditionactivity.firebaseio.com",
+    "project_id": "airconditionactivity",
+    "storage_bucket": "airconditionactivity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160801337720:android:2e088cc5b0006ab3",
+        "android_client_info": {
+          "package_name": "com.com.example.mbura.airconditionfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160801337720-mscjljqj9838sofv8bl1d5t1tbif5qu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHtTqkj4FlentGZYOr4GAqw_9-Y6ltVQ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

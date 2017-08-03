@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mbura.airconditionfirebase.AirConditionActivity">
+
+    <TextView
+        android:id="@+id/textviewcondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condition"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="144dp"
+        android:layout_above="@+id/buttonsunny"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="69dp" />
+
+    <Button
+        android:id="@+id/buttonsunny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunny"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="235dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/textviewcondition"
+        android:layout_toStartOf="@+id/textviewcondition" />
+
+    <Button
+        android:id="@+id/buttonfoggy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonsunny"
+        android:layout_alignBottom="@+id/buttonsunny"
+        android:layout_toEndOf="@+id/textviewcondition"
+        android:layout_toRightOf="@+id/textviewcondition"
+        android:text="Foggy"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+</RelativeLayout>
